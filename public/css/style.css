@@ -1,0 +1,86 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Aligns horizontally */
+    align-items: center; /* Aligns vertically */
+    height: 100vh; /* Full view height */
+}
+
+/* Container for the form */
+.container {
+    width: 400px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Form fields styling */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="file"],
+textarea {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: none;
+    height: 100px;
+}
+
+/* Submit button */
+input[type="submit"] {
+    background-color: #28a745;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #218838;
+}
+
+/* Error message styling */
+.error {
+    color: red;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+/* Success message styling */
+.success {
+    color: green;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
