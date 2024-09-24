@@ -9,7 +9,10 @@ if (isset($_POST["submit"])) {
     $sql = "INSERT INTO application (name, email, phone, letter) VALUES ('$username', '$email', '$phone', '$letter')";
 
     if (mysqli_query($conn, $sql)) {
-        echo "Application submitted successfully.";
+        echo '<script>
+        window.location.href = "application.php";
+        alert(" successful!");
+      </script>';
     } else {
         echo "Error: " . mysqli_error($conn);
     }
