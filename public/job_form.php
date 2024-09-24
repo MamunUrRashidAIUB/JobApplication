@@ -27,7 +27,7 @@
     <label for="letter">Cover Letter:</label>
     <textarea id="letter" name="letter"></textarea>
     
-    <button type="submit" name="submit" class="btn btn-primary">submit</button>
+    <button type="submit" name="submit" class="ab">submit</button>
 </form>
 
         </form>
